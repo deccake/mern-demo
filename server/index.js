@@ -15,7 +15,7 @@ app.use(cors())
 
 app.use('/',userRoute)
 //
-const CONNECTION_URL = "mongodb+srv://nodedeployapp:amol%401234@nodedeploy.pxbrx.mongodb.net/nodedeploy?retryWrites=true&w=majority"
+const CONNECTION_URL = ""
 const PORT = process.env.PORT || 5001
 
 mongoose.connect(CONNECTION_URL,{useNewUrlParser:true,useUnifiedTopology:true})
